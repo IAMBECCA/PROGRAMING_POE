@@ -29,6 +29,7 @@ internal class Program
                 case "1":
                     recipe.EnterData();
                     break;
+                    
                 case "2":
                     recipe.RecipeDisplay();
                     break;
