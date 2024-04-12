@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RecipeApplication_POE/1.0.0": {
+        "runtime": {
+          "RecipeApplication_POE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RecipeApplication_POE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
