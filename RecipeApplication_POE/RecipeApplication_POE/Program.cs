@@ -7,8 +7,10 @@ internal class Program
     private static void Main(string[] args)
     {
         Recipe recipe = new Recipe();
-        while (true)
+        while (true)+
+            
         {
+            
             Console.WriteLine("=========================================");
             Console.WriteLine("Press 1 to Enter your recipe details");
             Console.WriteLine("Press 2 to Display the recipe");
@@ -52,7 +54,9 @@ internal class Program
     }
     
     class Recipe
+        
     {
+        
         // Declare ingredients
         // Declare quantity
         // Declare unit
@@ -62,7 +66,9 @@ internal class Program
         private string[] unit;
         private string[] steps;
         public Recipe()
+            
         {
+            
             ingredients = new string[0];
             quantity = new double[0];
             unit = new string[0];
@@ -71,6 +77,7 @@ internal class Program
 
         // user enters details
         public void EnterData()
+            
         {
 
             Console.WriteLine("Enter your recipe details");
@@ -86,7 +93,9 @@ internal class Program
             unit = new string[ingredientsNo];
 
             for (int i = 0; i < ingredientsNo; i++)
+                
             {
+                
             Console.WriteLine($"Ingredient details {1 + 1}:");
                 Console.Write("Name:");
                 ingredients[i] = Console.ReadLine();
@@ -102,7 +111,9 @@ internal class Program
             int stpNo = Convert.ToInt32(Console.ReadLine());
             steps = new string[stpNo];
             for (int a = 0; a < stpNo; a++)
+                
             {
+                
                 Console.Write($"Steps{ a+1}:");
                 steps[a] = Console.ReadLine();
             
@@ -111,7 +122,9 @@ internal class Program
 
         //This makes the whole recipe to display
         public void RecipeDisplay()
+            
         {
+            
             Console.WriteLine("\nHere is your recipe:");
             Console.WriteLine("Ingredients:");
             for (int i = 0; i < steps.Length; i++)
@@ -136,7 +149,9 @@ internal class Program
         
         //This resets your recipe for you to be able to start again
         public void ResetRecipe()
+            
         {
+            
             for(int i = 0;i<quantity.Length;i++)
             {
                 quantity[i] /= 2;
@@ -152,4 +167,16 @@ internal class Program
             steps=new string[0];
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
 
