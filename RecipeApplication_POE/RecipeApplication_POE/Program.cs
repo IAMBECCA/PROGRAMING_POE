@@ -6,6 +6,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        
         Recipe recipe = new Recipe();
         while (true)+
             
