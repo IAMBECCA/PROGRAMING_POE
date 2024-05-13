@@ -17,6 +17,8 @@ Runing the Application: After the build is successful, you can run the applicati
 
 Exploring the Application: Once the application is running, you can explore its features, such as adding, editing, and deleting recipes, searching for recipes, and viewing recipe details.
 
+Running the application after adding some changes to the file you should be able to explore the application . You are able to add, find a recipe and viewing your recipe details.
+
 Dependencies
 
 .NET Framework: Ensure that you have the appropriate .NET Framework version installed on your machine.
